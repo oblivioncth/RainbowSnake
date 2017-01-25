@@ -1,0 +1,25 @@
+By: Christian Heimlich
+
+The program contained in this archeive is a new take on an old classic: Rainbow Snake.
+It plays exactly like the original snake, but uses multiple colors instead of one and allows
+the player to utilize new game mechanics based on these colors. The primary two is that you can
+loop around the screen by going into a the wall that is the same color as the snake head, and you
+can also pass through the snake body itself if you can manage to line up the snake head with another
+snake block that is the same color (very hard to do). The secondary difference is that there are
+three power-ups added that also add to the gameplay. You can have up to three at once and they are
+used in a FILO order.
+
+Power-Ups
+=========
+1) Match Head - Changes the snake head to match the color of the wall it is facing
+2) Match Wall - Rotates the walls so that the wall the snake is facing becomes the same color as the head
+3) Time Stretch - Makes the game run at 1/4th speed for the next 20 moves
+
+Controls
+========
+Arrow Keys - Set snake direction
+Space - Activate top power-ups
+
+Since I programmed this using the Qt C++ libraries and Qt creator, I have included pre-compiled binaries
+so you have an easy way to inspect the game
+
